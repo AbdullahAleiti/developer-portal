@@ -355,7 +355,7 @@ To calculate the remaining output wee need to subtract the fee from our funds an
 output=$(expr $funds - $fee)
 ```
 
-We now have every value we need to re-build the transaction, ready to be signed. So we reissue the same command to re-buld, the only difference being our variables now holding the correct values.
+We now have every value we need to re-build the transaction, ready to be signed. So we reissue the same command to re-build, the only difference being our variables now holding the correct values.
 
 ```bash
 cardano-cli transaction build-raw \
